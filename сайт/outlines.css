@@ -1,0 +1,156 @@
+html,
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+<a href="#" class=".myButton">purple</a>
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	background-color:#c123de;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color:#a20dbd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+body {
+  min-width: 430px;
+  border: 2px dashed #c7e4ff;
+}
+
+html::before,
+body::before,
+header::before,
+footer::before,
+main::before {
+  color: #7fc1ff;
+}
+
+main,
+header,
+footer {
+  background-color: #f3faff;
+  border: 2px solid #7fc1ff;
+}
+
+nav,
+section,
+article,
+aside {
+  background-color: #f9f7ff;
+  border: 2px solid #9779ec;
+}
+
+nav::before,
+section::before,
+article::before,
+aside::before {
+  color: #9779ec;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 18px;
+  background-color: #ffffff;
+  border: 2px solid #ff994f;
+}
+
+h1::before {
+  content: "h1";
+  color: #ff994f;
+}
+
+h2::before {
+  content: "h2";
+  color: #ff994f;
+}
+
+h3::before {
+  content: "h3";
+  color: #ff994f;
+}
+
+p {
+  background-color: #ffffff;
+  border: 2px solid #f36dff;
+}
+
+p::before {
+  color: #f36dff;
+  content: "p";
+}
+
+* {
+  position: relative;
+  padding: 25px 25px 20px;
+  margin: 0;
+  border-radius: 4px;
+}
+
+*:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+*::before {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 10px;
+  letter-spacing: 0.04em;
+}
+
+html::before {
+  content: "html";
+}
+
+body::before {
+  content: "body";
+}
+
+main::before {
+  content: "main";
+}
+
+header::before {
+  content: "header";
+}
+
+footer::before {
+  content: "footer";
+}
+
+section::before {
+  content: "section";
+}
+
+article::before {
+  content: "article";
+}
+
+aside::before {
+  content: "aside";
+}
+
+nav::before {
+  content: "nav";
+}
